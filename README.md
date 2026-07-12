@@ -28,9 +28,9 @@ Bitcoin (BTC), Ethereum (ETH), Binance Coin (BNB), Litecoin (LTC)
 
 | File | Description |
 |---|---|
-| `crypto_dataset_pipeline_v2.py` | Downloads OHLCV data, engineers 16 features, walk-forward splits |
-| `crypto_models_v3.py` | Trains and evaluates all 6 models with Diebold-Mariano testing |
-| `crypto_charts_v2.py` | Generates observed vs predicted charts |
+| `crypto_dataset_pipeline.py` | Downloads OHLCV data, engineers 16 features, walk-forward splits |
+| `crypto_models.py` | Trains and evaluates all 6 models with Diebold-Mariano testing |
+| `crypto_chart.py` | Generates observed vs predicted charts |
 | `all_results_summary.csv` | Final RMSE and MAE for all models across all four coins |
 
 ---
