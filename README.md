@@ -42,13 +42,13 @@ pip install yfinance ta pandas numpy scikit-learn statsmodels
 tensorflow matplotlib seaborn requests
 
 **Run pipeline:**
-python crypto_dataset_pipeline_v2.py
+python crypto_dataset_pipeline.py
 
 **Train and evaluate models:**
-python crypto_models_v3.py
+python crypto_models.py
 
 **Generate charts:**
-python crypto_charts_v2.py
+python crypto_chart.py
 
 ---
 
