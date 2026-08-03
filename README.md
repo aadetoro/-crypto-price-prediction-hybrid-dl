@@ -32,8 +32,8 @@ crypto-price-prediction-hybrid-dl/
 │   ├── seed_control.py             # Reproducibility: fixed seed + deterministic GPU ops
 │   ├── crypto_dataset_pipeline.py  # Data download, feature engineering, walk-forward splits
 │   ├── crypto_eda.py               # Exploratory data analysis (ADF test, correlations, outliers)
-│   ├── crypto_models_v3.py         # All 6 models: training, evaluation, Diebold-Mariano testing
-│   └── crypto_charts_v2.py         # Observed vs predicted charts (train/test split visualisation)
+│   ├── crypto_models.py         # All 6 models: training, evaluation, Diebold-Mariano testing
+│   └── crypto_charts.py         # Observed vs predicted charts (train/test split visualisation)
 ├── notebooks/
 │   └── CryptoPricePrediction_MSc.ipynb   # Step-by-step Colab notebook running all 5 scripts in order
 ├── data/
