@@ -1,0 +1,33 @@
+Coin,Model,Type,RMSE,MAE,MAPE
+Bitcoin,Random Walk,Naive,0.021984,0.014607,100.0
+Bitcoin,Persistence,Naive,0.030674,0.022666,259.42
+Bitcoin,ARIMA,Statistical,0.022063,0.014579,96.6
+Bitcoin,LSTM,Baseline DL,0.02238,0.015134,123.68
+Bitcoin,GRU,Baseline DL,0.026188,0.018803,198.79
+Bitcoin,CNN-LSTM,Hybrid,0.028409,0.021025,272.59
+Bitcoin,LSTM-Attention,Hybrid,0.039479,0.031597,539.94
+Bitcoin,Transformer-LSTM,Hybrid,0.02226,0.015074,121.88
+Ethereum,Random Walk,Naive,0.021926,0.015729,100.0
+Ethereum,Persistence,Naive,0.032226,0.024781,248.74
+Ethereum,ARIMA,Statistical,0.021979,0.015765,99.47
+Ethereum,LSTM,Baseline DL,0.02208,0.01593,103.92
+Ethereum,GRU,Baseline DL,0.021865,0.015643,106.95
+Ethereum,CNN-LSTM,Hybrid,0.024529,0.018276,160.34
+Ethereum,LSTM-Attention,Hybrid,0.047197,0.039252,611.97
+Ethereum,Transformer-LSTM,Hybrid,0.023334,0.017755,165.71
+BinanceCoin,Random Walk,Naive,0.021077,0.014666,100.0
+BinanceCoin,Persistence,Naive,0.030873,0.022832,242.4
+BinanceCoin,ARIMA,Statistical,0.021056,0.014583,97.88
+BinanceCoin,LSTM,Baseline DL,0.021756,0.01523,123.71
+BinanceCoin,GRU,Baseline DL,0.022053,0.016351,151.16
+BinanceCoin,CNN-LSTM,Hybrid,0.027961,0.022317,303.46
+BinanceCoin,LSTM-Attention,Hybrid,0.047385,0.03915,628.65
+BinanceCoin,Transformer-LSTM,Hybrid,0.023892,0.018933,215.98
+Litecoin,Random Walk,Naive,0.034972,0.023712,100.0
+Litecoin,Persistence,Naive,0.048253,0.034914,279.34
+Litecoin,ARIMA,Statistical,0.034963,0.023779,99.49
+Litecoin,LSTM,Baseline DL,0.034978,0.023867,110.19
+Litecoin,GRU,Baseline DL,0.038413,0.027395,153.97
+Litecoin,CNN-LSTM,Hybrid,0.042265,0.032216,253.31
+Litecoin,LSTM-Attention,Hybrid,0.068572,0.058741,633.01
+Litecoin,Transformer-LSTM,Hybrid,0.037328,0.02604,152.12

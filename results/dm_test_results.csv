@@ -1,0 +1,17 @@
+Coin,Best_Hybrid,Baseline,DM_Statistic,p_value,Significance,Interpretation
+Bitcoin,Transformer-LSTM,Random Walk,1.303,0.1926,not significant,No significant difference
+Bitcoin,Transformer-LSTM,Persistence,-4.375,0.0,p<0.01,Hybrid significantly better
+Bitcoin,Transformer-LSTM,ARIMA,1.08,0.2802,not significant,No significant difference
+Bitcoin,Transformer-LSTM,LSTM,-0.933,0.3507,not significant,No significant difference
+Ethereum,Transformer-LSTM,Random Walk,2.931,0.0034,p<0.01,Baseline significantly better
+Ethereum,Transformer-LSTM,Persistence,-5.356,0.0,p<0.01,Hybrid significantly better
+Ethereum,Transformer-LSTM,ARIMA,2.942,0.0033,p<0.01,Baseline significantly better
+Ethereum,Transformer-LSTM,LSTM,2.841,0.0045,p<0.01,Baseline significantly better
+BinanceCoin,Transformer-LSTM,Random Walk,3.196,0.0014,p<0.01,Baseline significantly better
+BinanceCoin,Transformer-LSTM,Persistence,-4.23,0.0,p<0.01,Hybrid significantly better
+BinanceCoin,Transformer-LSTM,ARIMA,2.974,0.0029,p<0.01,Baseline significantly better
+BinanceCoin,Transformer-LSTM,LSTM,1.971,0.0487,p<0.05,Baseline significantly better
+Litecoin,Transformer-LSTM,Random Walk,3.123,0.0018,p<0.01,Baseline significantly better
+Litecoin,Transformer-LSTM,Persistence,-3.271,0.0011,p<0.01,Hybrid significantly better
+Litecoin,Transformer-LSTM,ARIMA,3.033,0.0024,p<0.01,Baseline significantly better
+Litecoin,Transformer-LSTM,LSTM,2.862,0.0042,p<0.01,Baseline significantly better
